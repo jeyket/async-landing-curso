@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d src"
   },
   "repository": {
     "type": "git",
@@ -12,9 +12,12 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jeyket/async-landing-curso/issues"
   },
-  "homepage": "https://github.com/jeyket/async-landing-curso#readme"
+  "homepage": "https://github.com/jeyket/async-landing-curso#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
